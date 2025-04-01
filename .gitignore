@@ -14,11 +14,10 @@ dist-ssr
 .env
 .env.*
 server.js
-dbConfig.js
-userController.js
-authMiddleware.js
-authService.js
-
+src/config/*.js
+src/controllers/*.js
+src/middleware/*.js
+src/services/*.js
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
