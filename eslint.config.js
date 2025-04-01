@@ -21,7 +21,8 @@ export default [
         beforeEach: 'readable',
         afterEach: 'readable',
         beforeAll: 'readable',
-        afterAll: 'readable'
+        afterAll: 'readable',
+        process: 'readable'
       },
       parserOptions: {
         ecmaVersion: 'latest',
