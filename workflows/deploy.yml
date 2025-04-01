@@ -1,0 +1,12 @@
+name: Dummy Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skipping deploy (Vercel handles it)
+        run: echo "Deploy handled by Vercel"
