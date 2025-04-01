@@ -18,6 +18,8 @@ src/config/*.js
 src/controllers/*.js
 src/middleware/*.js
 src/services/*.js
+test/*.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
