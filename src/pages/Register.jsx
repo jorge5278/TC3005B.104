@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, TextField, Container, Typography, Alert, Box } from "@mui/material";
 import { register } from "../services/authService";

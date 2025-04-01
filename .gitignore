@@ -13,6 +13,11 @@ dist-ssr
 *.local
 .env
 .env.*
+server.js
+dbConfig.js
+userController.js
+authMiddleware.js
+authService.js
 
 # Editor directories and files
 .vscode/*

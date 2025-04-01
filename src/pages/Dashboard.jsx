@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import PropTypes from 'prop-types'; // Import PropTypes
 import Footer from "../components/Footer";
 import { Avatar, Container, Typography, Box, Button } from "@mui/material";
 import userImage from "../components/1.jpg"; 
@@ -34,6 +35,10 @@ const ParagraphSection = ({ text }) => (
   </Box>
 );
 
+ParagraphSection.propTypes = {
+  text: PropTypes.string.isRequired,
+};
+
 const CustomControl = ({ count, increment }) => (
   <Box textAlign="center" sx={{ p: 2 }}>
     <Typography sx={{ color: "black" }}>Valor actual: {count}</Typography>
@@ -42,5 +47,10 @@ const CustomControl = ({ count, increment }) => (
     </Button>
   </Box>
 );
+
+CustomControl.propTypes = {
+  count: PropTypes.number.isRequired,
+  increment: PropTypes.func.isRequired,
+};
 
 export default Dashboard;
