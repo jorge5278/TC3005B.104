@@ -9,8 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "jest"
-}
-
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
