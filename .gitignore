@@ -18,7 +18,7 @@ src/config/*.js
 src/controllers/*.js
 src/middleware/*.js
 src/services/*.js
-test/*.js
+test/*.test.js
 jest.config.js
 
 # Editor directories and files
