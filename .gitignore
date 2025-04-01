@@ -19,6 +19,7 @@ src/controllers/*.js
 src/middleware/*.js
 src/services/*.js
 test/*.js
+jest.config.js
 
 # Editor directories and files
 .vscode/*
